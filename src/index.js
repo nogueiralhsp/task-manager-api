@@ -14,6 +14,7 @@ app.use(taskRouter)
 console.log(process.env.PORT);
 
 app.listen (port, ()=>{
-     console.log(chalk.yellowBright('Server is up on port ' + port))
      
+     console.log(chalk.yellowBright('Server is up on port ' + port))   
+
 })
